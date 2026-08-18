@@ -145,8 +145,8 @@ export const MODEL_RULES: ModelRule[] = [
 
 /** 走 Coding Plan 订阅（费用为刊例价折算，仅供参考）的 provider 特征。 */
 export const CODING_PLAN_PROVIDER_HINTS: { match: (provider: string) => boolean; label: string }[] = [
-  { match: (p) => p === 'zai-coding-cn' || p.includes('zai-coding') || p === 'zai', label: 'GLM Coding Plan（订阅计费，看板金额为按量刊例价折算）' },
-  { match: (p) => p === 'moonshotai-cn' || p.includes('kimi-coding') || p.includes('moonshot-coding'), label: 'Kimi Coding Plan（订阅计费，看板金额为按量刊例价折算）' },
+  { match: (p) => p === 'zai-coding-cn' || p.includes('zai-coding') || p === 'zai', label: 'GLM Coding Plan' },
+  { match: (p) => p === 'moonshotai-cn' || p.includes('kimi-coding') || p.includes('moonshot-coding'), label: 'Kimi Coding Plan' },
 ]
 
 /* ───────────────────────── 北京时区工具 ───────────────────────── */
